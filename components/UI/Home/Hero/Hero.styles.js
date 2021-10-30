@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { device } from '../../../GlobalStyles/GlobalStyles'
+import { device } from '../../../../GlobalStyles/GlobalStyles'
 
 export const HeroGrid = styled.div`
   display: grid;

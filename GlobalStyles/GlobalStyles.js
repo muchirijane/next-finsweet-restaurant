@@ -11,6 +11,7 @@ const GlobalStyle = createGlobalStyle`
 :root{
   --color-black: #19161B;
   --medium-black: #161616;
+  --dark-blue: #151217;
   --dark-grey: #27252d;
   --light-grey: #b8b8b8;
   --color-grey: #B8B8B8;
@@ -32,7 +33,7 @@ body{
   font-family: 'Poppins', sans-serif;
   font-size: 1.6rem;
   line-height: 1.5;
-  letter-spacing: 1.3;
+  letter-spacing: 1.3px;
   font-weight: 400;
  background-color: var(--color-black);
   color: var(--color-grey);
@@ -63,7 +64,7 @@ export const Container = styled.section`
 
 export const GridContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
   grid-column-gap: 4rem;
   grid-row-gap: 3rem;
 `
@@ -77,14 +78,15 @@ export const ButtonLink = styled.a`
   justify-content: center;
   align-items: center;
   transition: all 0.3s ease-in-out;
+  cursor: pointer;
 
   &:hover {
     background-color: var(--dark-grey);
     color: var(--color-white);
-    transform: translateY(2px);
+    transform: translateY(3px);
   }
   &:active {
-    transform: translateY(-2px);
+    transform: translateY(-3px);
   }
 `
 
