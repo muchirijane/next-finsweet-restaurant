@@ -12,10 +12,10 @@ const TextContainer = styled.div`
 `
 
 const Divider = styled.div`
-  width: 3rem;
+  width: 5rem;
   height: 1px;
   background-color: var(--color-white);
-  margin-left: 1rem;
+  margin-left: 2rem;
 `
 
 export default function TextDivider({ title }) {

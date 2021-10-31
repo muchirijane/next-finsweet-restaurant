@@ -17,6 +17,7 @@ export const ImgWrapper = styled.div`
 export const AboutContainer = styled.div`
   margin-top: 7rem;
   background-color: var(--dark-blue);
+  padding-bottom: 4rem;
 `
 export const AboutWrapper = styled.div`
   padding: 6rem 2rem;
@@ -31,7 +32,7 @@ export const AboutDetailsGrid = styled.div`
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 3rem;
   grid-row-gap: 2rem;
-  margin-top: 2rem;
+  margin-top: 4rem;
 
   @media ${device.tablet} {
     grid-template-columns: 1fr;

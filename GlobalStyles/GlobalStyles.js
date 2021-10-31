@@ -17,6 +17,7 @@ const GlobalStyle = createGlobalStyle`
   --color-grey: #B8B8B8;
   --color-white: #fff;
   --color-orange: #FFB577;
+  --light-orange: #261E1D;
   --light-blue: #C4E4EA;
   --color-blue: rgba(0, 0, 0, 0.16);
 
