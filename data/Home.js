@@ -106,7 +106,7 @@ export const ServingDetails = [
     text: 'Get a variety of grilled items, from our own grill to your table. You can also grill your own food or let our chef prepare it for you.',
   },
   {
-    icon: '/home/snack.svg',
+    icon: '/home/snacks.svg',
     alt: 'a plate of snacks',
     width: 24,
     height: 24,

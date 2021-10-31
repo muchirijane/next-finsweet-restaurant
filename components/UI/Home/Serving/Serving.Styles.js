@@ -13,6 +13,10 @@ export const ServingGridContainer = styled.div`
 `
 export const ServingGridItem = styled.div`
   padding: 4rem;
+  h3 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
 `
 export const IconWrapper = styled.div`
   height: 48px;
@@ -22,4 +26,5 @@ export const IconWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 2rem;
 `
