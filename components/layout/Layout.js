@@ -1,9 +1,9 @@
 import React from 'react'
-import Head from 'next/head'
+
 import Header from '../Header/Header'
 import Meta from './Meta'
 import GlobalStyle from '../../GlobalStyles/GlobalStyles'
-export default function Layout({ pageTitle, children, ...props }) {
+export default function Layout({ pageTitle, children }) {
   return (
     <>
       <GlobalStyle />

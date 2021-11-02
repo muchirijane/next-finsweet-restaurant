@@ -13,6 +13,7 @@ const GlobalStyle = createGlobalStyle`
   --medium-black: #161616;
   --dark-blue: #151217;
   --dark-grey: #27252d;
+  --color-grey: #1f1d21;
   --light-grey: #b8b8b8;
   --color-grey: #B8B8B8;
   --color-white: #fff;
@@ -69,16 +70,23 @@ export const GridContainer = styled.div`
   grid-column-gap: 4rem;
   grid-row-gap: 3rem;
 `
+export const MenuGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 8rem;
+  grid-row-gap: 3rem;
+`
 
 export const ButtonLink = styled.a`
   text-decoration: none;
   background-color: var(--color-orange);
-  color: var(--dark-grey);
+  color: var(--color-black);
+
   padding: 1.2rem 2.4rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
   cursor: pointer;
 
   &:hover {

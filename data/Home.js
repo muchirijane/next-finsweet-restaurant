@@ -114,3 +114,52 @@ export const ServingDetails = [
     text: 'You will be served all kinds of snacks, from the sweetest to the most savory. We create unique snacks for each customer.',
   },
 ]
+
+export const MenuIntro = {
+  subtitle: 'Our Menu',
+  title: 'Discover our Menu Chart',
+  details:
+    "We have a variety of delicious meals prepared by our top chiefs and carefully served when it's hot and fresh. Our customers' health is important to us hence only organic ingredients from our farm are used for cooking.",
+  topic: 'Most Popular Picks',
+  buttonText: 'View Menu',
+  href: '/menu',
+}
+
+export const MenuItems = [
+  {
+    img: '/home/coffee.png',
+    alt: 'a cup of coffee with cream',
+    title: 'Coffee',
+    price: '$8.85',
+  },
+  {
+    img: '/home/cake.png',
+    alt: 'a cupcake with mint and some dark chocolate bar',
+    title: 'Choco Cup Cake',
+    price: '$4.85',
+  },
+  {
+    img: '/home/burger.png',
+    alt: 'a double filled chicken burger',
+    title: 'Chicken Burger',
+    price: '$8.85',
+  },
+  {
+    img: '/home/fries.png',
+    alt: 'a spicy dip sauce with chilly french fries',
+    title: 'French Fries',
+    price: '$7.85',
+  },
+  {
+    img: '/home/sandwich.png',
+    alt: 'a simple chicken sandwich with baby spinach',
+    title: 'Sandwich',
+    price: '$3.85',
+  },
+  {
+    img: '/home/soup.png',
+    alt: ' raymen noodles with egg soup',
+    title: 'Chinese Soup',
+    price: '$8.85',
+  },
+]

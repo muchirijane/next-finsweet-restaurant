@@ -7,6 +7,10 @@ const TextWrapper = styled.div`
   h2 {
     width: 70%;
     margin-right: 3rem;
+
+    @media ${device.tablet} {
+      margin-right: 0;
+    }
   }
 
   p {

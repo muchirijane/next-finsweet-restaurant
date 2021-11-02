@@ -1,7 +1,12 @@
 import styled from 'styled-components'
 import { device } from '../../../../GlobalStyles/GlobalStyles'
 
-export const GridItem1 = styled.div``
+export const GridItem1 = styled.div`
+  h2 {
+    margin-bottom: 3rem;
+    line-height: 1.3;
+  }
+`
 export const GridItem2 = styled.div`
   display: flex;
   justify-content: space-around;
