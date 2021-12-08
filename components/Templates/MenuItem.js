@@ -4,13 +4,18 @@ import styled from 'styled-components'
 const ItemContainer = styled.div`
   display: flex;
   flex-direction: column;
-  width: 40.5rem;
+  img {
+    &:hover {
+      transform: scale(1.2);
+      transition: transform 0.2s ease-in-out;
+    }
+  }
 `
 
 const ImgContainer = styled.div`
   img {
-    border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
   }
 `
 const ItemDetails = styled.div`
@@ -19,8 +24,12 @@ const ItemDetails = styled.div`
   background-color: #1f1d21;
   padding: 2rem 3rem;
   margin-top: -1rem;
-  border-bottom-left-radius: 2rem;
-  border-bottom-right-radius: 2rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+
+  h3 {
+    font-size: 1.7rem;
+  }
   p {
     color: var(--color-white);
   }
@@ -30,7 +39,7 @@ export default function MenuItem({ img, alt, title, price }) {
   return (
     <ItemContainer>
       <ImgContainer>
-        <Image src={img} alt={alt} width={405} height={250} />
+        <Image src={img} alt={alt} width={405} height={250} layout='responsive' />
       </ImgContainer>
       <ItemDetails>
         <h3>{title}</h3>

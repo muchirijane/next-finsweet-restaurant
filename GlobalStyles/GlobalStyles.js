@@ -13,7 +13,7 @@ const GlobalStyle = createGlobalStyle`
   --medium-black: #161616;
   --dark-blue: #151217;
   --dark-grey: #27252d;
-  --color-grey: #1f1d21;
+  --color-lightGrey: #1f1d21;
   --light-grey: #b8b8b8;
   --color-grey: #B8B8B8;
   --color-white: #fff;
@@ -50,6 +50,10 @@ h1,h2{
   color: var(--color-white);
   font-size: 5rem;
   font-weight: 700;
+  
+  @media only screen and (max-width: 500px) {
+    font-size: 3rem;
+  }
 }
 h3{
   font-size: 2rem;
@@ -68,11 +72,15 @@ export const GridContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
   grid-column-gap: 4rem;
-  grid-row-gap: 3rem;
+  grid-row-gap: 3rem; 
+  @media (max-width: 500px) {
+    display: flex;
+    flex-direction: column;
+  }
 `
 export const MenuGrid = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   grid-column-gap: 8rem;
   grid-row-gap: 3rem;
 `

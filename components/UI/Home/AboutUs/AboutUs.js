@@ -58,6 +58,7 @@ export default function AboutUs() {
                     alt={item.alt}
                     width={200}
                     height={400}
+
                   />
                 </ImgWrapper>
               ))}

@@ -25,6 +25,7 @@ export default function HomeMenu() {
         <MenuItemContainer>
           <MenuGrid>
             {MenuItems.map((item, index) => (
+              //individual menu meal or card
               <MenuItem key={index} {...item} />
             ))}
           </MenuGrid>

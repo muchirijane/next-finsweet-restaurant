@@ -10,21 +10,28 @@ const TextWrapper = styled.div`
 
     @media ${device.tablet} {
       margin-right: 0;
+      width: 100%;
+      margin-bottom: 2rem;
+      font-size: 3rem;
     }
   }
 
   p {
     width: 60%;
+    @media ${device.tablet} {
+      width: 100%;
+    }
   }
 
   @media ${device.tablet} {
     flex-direction: column;
     h2 {
-      width: 100%;
-      margin-bottom: 2rem;
+      //width: 100%;
+      //margin-bottom: 2rem;
+      //font-size: 3rem;
     }
     p {
-      width: 100%;
+      //width: 100%;
     }
   }
 `

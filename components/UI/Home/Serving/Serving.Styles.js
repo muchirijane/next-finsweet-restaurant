@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-
+import {device} from '../../../../GlobalStyles/GlobalStyles'
 export const ServingWrapper = styled.div`
   padding: 0 2rem;
   margin-top: 6rem;
@@ -10,6 +10,10 @@ export const ServingGridContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   margin-top: 4rem;
+  
+  @media ${device.tabletS}{
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
 `
 export const ServingGridItem = styled.div`
   padding: 4rem;

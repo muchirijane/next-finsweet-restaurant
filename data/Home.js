@@ -163,3 +163,20 @@ export const MenuItems = [
     price: '$8.85',
   },
 ]
+
+export const BlogIntro = {
+  subtitle: 'Our Blog',
+  title: 'Read our latest news',
+  details:
+    ' Go through the latest information about the new branches we are opening and the new menu dishes we be cooking. ',
+}
+
+export const BlogItems = [
+  {
+    img: '/home/blog-1.png',
+    alt: 'a picture of a restaurant',
+    title: 'New Branches',
+    date: 'May 20, 2020',
+    text: '',
+  },
+]

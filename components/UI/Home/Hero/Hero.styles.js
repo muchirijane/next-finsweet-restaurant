@@ -8,6 +8,13 @@ export const HeroGrid = styled.div`
   grid-column-gap: 4rem;
   grid-row-gap: 3rem;
   margin-top: 4rem;
+  
+  @media ${device.tabletS} {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   
+    
+    
+  }
 `
 export const HeroGridItem1 = styled.div`
   display: flex;
